@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "8788b99791166e38",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea9ed02769041197",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "beautiful_markdown_style.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "60c30bf4251eab3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ea35d1433615ed2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0de3184c2e32024",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "061225188cd5af72",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a7c6033bfba3e476",
+    "type": "split",
+    "children": [
+      {
+        "id": "847993761654989b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f4227e5361acd04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "beautiful_markdown_style.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "beautiful_markdown_style.md",
+    "Untitled.md",
+    "README.md"
+  ]
+}
