@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>James Twose Curriculum Vitae</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!-- header section -->
+<section id="header">
+<div class="container text-center">
+<div class="user-box">
+<h1>James Twose</h1>
+<p>The Notes of a Data Scientist</p>
+</div>
+</div>
+<div class="scroll-btn">
+<div class="scroll-bar"><a href="#myNotes"><span></span></a></div>
+</div>
+</section>
+
+<!-- User-info section -->
+<section id = "user-info">
+<div class="nav-bar">
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#myNotes">MY NOTES</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+</section>
+
+<section id="myNotes">
+<div class="user-box">
+<h1>My latest notes</h1>
+<object type="text/html" data="html/readme.html" width="800" height="800"></object>
+<object type="text/html" data="html/beautiful_markdown_style.html" width="800" height="800"></object>
+
+</div>
+</section>
+
+
+<!-- Smooth scroll -->
+<script src="smooth-scroll.js"></script>
+
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</body>
+</html>
